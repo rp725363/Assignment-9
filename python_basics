@@ -1,0 +1,53 @@
+1. To what does a relative path refer?
+Ans:-
+A relative path referes to the location of a current working file or directory in relation to the current directoy.it is a path that is expressed to the relative 
+of current working directory or location of referred file or directory
+
+2. What does an absolute path start with your operating system?
+Ans:-
+The format of path may depends in oprating system but in general an absolute path starts with the root directory of file system on the oprating system.
+on window system an ususl path starts from drive letterfollowed by colon and bcakslash for exapmle:-\
+C:\\program file\myfolder\study material
+
+3. What do the functions os.getcwd() and os.chdir() do?
+Ans:-
+os.getcwd()- Will give your the current path of working directtry of the python scritp.
+os.chdir() will take path as input and can change the current working directory of paython script.]
+Togather both function will given you acccess to nevigate the working directory to maximize the use and benifits.
+
+4. What are the . and .. folders?
+Ans:-
+"." refers to the current working directory . It is often use in path to represent the current working directory.
+".." while this use to refer the parent working directory of the current directory.it is often used to represent to refer to directory of one level up.
+
+
+5. In C:\bacon\eggs\spam.txt, which part is the dir name, and which part is the base name?
+Ans:-
+In above link (C:\bacon\eggs\spam.txt) - spam.txt is the name of working directory.
+
+6. What are the three “mode” arguments that can be passed to the open() function?
+Ans:-
+In python open() function used to open a file and returns the contain and code that can be used to read.
+here are three mode open a file .- 
+-r - This function is used to read the file and show that contain and data of file.
+-w - This function is used to write and commit the changes in any file or directory.
+-a This mode is basically used to append a data in file or directory.
+
+
+7. What happens if an existing file is opened in write mode?
+Ans:-
+When you open a file in -w mode , it means this file's all contains are erased and cleared and ready to rewrite .
+that's why it is importtant to open a file carefully in desired mode to avoid the hustle and data curreption.
+
+8. How do you tell the difference between read() and readlines()?
+Ans:-
+In python both are used to read the data from a file or object but they behave differently.
+read() this reads file and returns the result as a string.
+readlines()  this reads a entire contents of the drectory and file and returns in the list of strings.
+
+9. What data structure does a shelf value resemble?
+Ans:-
+In Python, a shelf is a persistent, dictionary-like object that stores key-value pairs as pickled values on disk. A shelf value resembles a 
+dictionary in the way it stores key-value pairs, but it is not a true dictionary. Instead, it is a built-in module in Python, which provides a simple way 
+to store and retrieve objects from disk using key-value pairs.
+Overall, a shelf value in Python can be thought of as a persistent, disk-based dictionary that stores its data in a file on disk.
